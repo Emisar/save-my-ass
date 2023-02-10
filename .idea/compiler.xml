@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="save-my-ass" />
+        <module name="easy-tasks" />
+        <module name="normal-tasks" />
       </profile>
     </annotationProcessing>
   </component>
