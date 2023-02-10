@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb99d314-289b-4731-b4bc-77e4fafe993a" name="Changes" comment="Add solutions for second tasks">
-      <change afterPath="$PROJECT_DIR$/easy-tasks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/entity/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/entity/FinanceReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/exception/IncorrectInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/service/FinanceReportProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/main/java/org/com/easy/tasks/service/StringProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/FinanceReportProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/StringProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal-tasks/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/entity/Consignment.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/entity/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/impl/BeginStringFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +21,8 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -134,7 +124,7 @@
       <updated>1676004193000</updated>
       <workItem from="1676004194185" duration="17690000" />
       <workItem from="1676024155840" duration="98000" />
-      <workItem from="1676024377241" duration="6322000" />
+      <workItem from="1676024377241" duration="6649000" />
     </task>
     <task id="LOCAL-00001" summary="Add settings files">
       <created>1676024241458</created>
@@ -143,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676024241459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add solutions for second tasks">
+      <created>1676031067248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676031067248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
