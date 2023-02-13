@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb99d314-289b-4731-b4bc-77e4fafe993a" name="Changes" comment="Add solutions for second tasks">
-      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/entity/Consignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normal-tasks/src/main/java/org/com/normal/tasks/service/impl/BeginStringFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/FinanceReportProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/FinanceReportProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "11"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -61,16 +58,50 @@
       <recent name="org.com.easy.tasks.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringProcessorTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.com.very.easy.tasks.Main" />
-      <module name="very-easy-tasks" />
+  <component name="RunManager" selected="JUnit.FinanceReportProcessorTest">
+    <configuration name="FinanceReportProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easy-tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.very.easy.tasks.*" />
+          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
+      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceReportProcessorTest.getAllByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easy-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
+      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
+      <option name="METHOD_NAME" value="getAllByValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinanceReportProcessorTest.getAllPaymentByFirstCharInName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easy-tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
+      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
+      <option name="METHOD_NAME" value="getAllPaymentByFirstCharInName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FinanceReportProcessorTest" />
+        <item itemvalue="JUnit.FinanceReportProcessorTest.getAllByValue" />
+        <item itemvalue="JUnit.FinanceReportProcessorTest.getAllPaymentByFirstCharInName" />
         <item itemvalue="JUnit.StringProcessorTest" />
         <item itemvalue="JUnit.StringProcessorTest.repeat" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +157,8 @@
       <updated>1676004193000</updated>
       <workItem from="1676004194185" duration="17690000" />
       <workItem from="1676024155840" duration="98000" />
-      <workItem from="1676024377241" duration="6649000" />
+      <workItem from="1676024377241" duration="6911000" />
+      <workItem from="1676291400764" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="Add settings files">
       <created>1676024241458</created>
@@ -140,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676031067248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add solutions for second tasks">
+      <created>1676031129129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676031129129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

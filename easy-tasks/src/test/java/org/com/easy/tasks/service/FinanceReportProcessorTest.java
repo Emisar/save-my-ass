@@ -1,8 +1,13 @@
 package org.com.easy.tasks.service;
 
+import org.com.easy.tasks.entity.Date;
 import org.com.easy.tasks.entity.FinanceReport;
+import org.com.easy.tasks.entity.Payment;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,18 +17,38 @@ class FinanceReportProcessorTest {
 
     @BeforeEach
     void setUp() {
-        financeReport = new FinanceReport();
+        Payment payment1 = new Payment("Ivanov Ivan Ivanovich", new Date(1, 1, 2001), 999);
+        Payment payment2 = new Payment("Antonov Anton Antonovich", new Date(19, 7, 1997), 1_000_000);
+        List<Payment> paymentList = List.of(payment1, payment2);
+        financeReport = new FinanceReport("Polinova Polina Polinovna", new Date(5, 7, 1998), paymentList);
+
     }
 
     @Test
     void getAllPaymentByFirstCharInName() {
-        FinanceReport actual = FinanceReportProcessor.getAllPaymentByFirstCharInName(financeReport, 'a');
-        assertFalse(false);
+        char filterChar = 'A';
+        FinanceReport actualFinanceReport = FinanceReportProcessor.getAllPaymentByFirstCharInName(financeReport, filterChar);
+        List<Payment> actualList = actualFinanceReport.getPaymentList();
+        List<Payment> expectedList = new ArrayList<>();
+        for (Payment payment : financeReport.getPaymentList()) {
+            if (payment.getFullName().split(" ")[1].charAt(0) == filterChar) {
+                expectedList.add(payment);
+            }
+        }
+        assertEquals(actualList.size(), expectedList.size());
     }
 
     @Test
     void getAllByValue() {
-        FinanceReport actual = FinanceReportProcessor.getAllByValue(financeReport, 1000);
-        assertFalse(false);
+        int filterValue = 1000;
+        FinanceReport actualFinanceReport = FinanceReportProcessor.getAllByValue(financeReport, filterValue);
+        List<Payment> actualList = actualFinanceReport.getPaymentList();
+        List<Payment> expectedList = new ArrayList<>();
+        for (Payment payment : financeReport.getPaymentList()) {
+            if (payment.getValue() < filterValue) {
+                expectedList.add(payment);
+            }
+        }
+        assertEquals(actualList.size(), expectedList.size());
     }
 }
