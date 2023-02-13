@@ -27,28 +27,26 @@ class FinanceReportProcessorTest {
     @Test
     void getAllPaymentByFirstCharInName() {
         char filterChar = 'A';
-        FinanceReport actualFinanceReport = FinanceReportProcessor.getAllPaymentByFirstCharInName(financeReport, filterChar);
-        List<Payment> actualList = actualFinanceReport.getPaymentList();
         List<Payment> expectedList = new ArrayList<>();
         for (Payment payment : financeReport.getPaymentList()) {
             if (payment.getFullName().split(" ")[1].charAt(0) == filterChar) {
                 expectedList.add(payment);
             }
         }
+        List<Payment> actualList = FinanceReportProcessor.getAllPaymentByFirstCharInName(financeReport, filterChar).getPaymentList();
         assertEquals(actualList.size(), expectedList.size());
     }
 
     @Test
     void getAllByValue() {
         int filterValue = 1000;
-        FinanceReport actualFinanceReport = FinanceReportProcessor.getAllByValue(financeReport, filterValue);
-        List<Payment> actualList = actualFinanceReport.getPaymentList();
         List<Payment> expectedList = new ArrayList<>();
         for (Payment payment : financeReport.getPaymentList()) {
             if (payment.getValue() < filterValue) {
                 expectedList.add(payment);
             }
         }
+        List<Payment> actualList = FinanceReportProcessor.getAllByValue(financeReport, filterValue).getPaymentList();
         assertEquals(actualList.size(), expectedList.size());
     }
 }
