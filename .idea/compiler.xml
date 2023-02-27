@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="easy-tasks" />
         <module name="normal-tasks" />
+        <module name="task1" />
+        <module name="task2" />
       </profile>
     </annotationProcessing>
   </component>

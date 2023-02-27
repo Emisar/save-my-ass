@@ -11,6 +11,7 @@
     <modules>
         <module>easy-tasks</module>
         <module>normal-tasks</module>
+        <module>maven-level</module>
     </modules>
 
     <properties>
@@ -24,6 +25,12 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
+                <version>${junit-jupiter-api.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-params</artifactId>
                 <version>${junit-jupiter-api.version}</version>
                 <scope>test</scope>
             </dependency>

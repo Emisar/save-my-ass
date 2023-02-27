@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb99d314-289b-4731-b4bc-77e4fafe993a" name="Changes" comment="Fix tasks">
-      <change beforePath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/FinanceReportProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-tasks/src/test/java/org/com/easy/tasks/service/FinanceReportProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task1/UnoArgumentFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task1/UnoArgumentFunctionImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task1/UnoArgumentFunctionImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task1/UnoArgumentFunctionImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task1/UnoArgumentFunctionImpl4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task2/UnoArgumentFunctional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task2/UnoArgumentFunctionalForLinearFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/main/java/org/com/maven/level/task2/UnoArgumentFunctionalForTrigonometricFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task1/UnoArgumentFunctionImpl1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task1/UnoArgumentFunctionImpl2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task1/UnoArgumentFunctionImpl3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task1/UnoArgumentFunctionImpl4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task1/UnoArgumentFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task2/UnoArgumentFunctionalForLinearFunctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/src/test/java/org/com/maven/level/task2/UnoArgumentFunctionalForTrigonometricFunctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task1/src/main/java/org/com/maven/level/Equation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task1/src/test/java/org/com/maven/level/EquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task2/src/main/java/org/com/maven/level/NoRootsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task2/src/main/java/org/com/maven/level/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-level/task2/src/test/java/org/com/maven/level/UtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +42,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,101 +62,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.com.maven.level.task2" />
+      <recent name="org.com.maven.level" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.com.maven.level.task2" />
+      <recent name="org.com.maven.level.task1" />
+      <recent name="org.com.maven.level" />
       <recent name="org.com.easy.tasks.service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.com.maven.level.task2" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FinanceReportProcessorTest.getAllByValue">
-    <configuration name="FinanceReportProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy-tasks" />
+  <component name="RunManager" selected="JUnit.UnoArgumentFunctionalForTrigonometricFunctionsTest">
+    <configuration name="UnoArgumentFunctionImpl4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
+          <option name="PATTERN" value="org.com.maven.level.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
+      <option name="PACKAGE_NAME" value="org.com.maven.level.task1" />
+      <option name="MAIN_CLASS_NAME" value="org.com.maven.level.task1.UnoArgumentFunctionImpl4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinanceReportProcessorTest.getAllByValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy-tasks" />
+    <configuration name="UnoArgumentFunctionalForLinearFunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
+          <option name="PATTERN" value="org.com.maven.level.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
-      <option name="METHOD_NAME" value="getAllByValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinanceReportProcessorTest.getAllPaymentByFirstCharInName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.FinanceReportProcessorTest" />
-      <option name="METHOD_NAME" value="getAllPaymentByFirstCharInName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy-tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.StringProcessorTest" />
+      <option name="PACKAGE_NAME" value="org.com.maven.level.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.com.maven.level.task2.UnoArgumentFunctionalForLinearFunctionsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProcessorTest.repeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easy-tasks" />
+    <configuration name="UnoArgumentFunctionalForLinearFunctionsTest.solve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-level" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.com.easy.tasks.service.*" />
+          <option name="PATTERN" value="org.com.maven.level.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.com.easy.tasks.service" />
-      <option name="MAIN_CLASS_NAME" value="org.com.easy.tasks.service.StringProcessorTest" />
-      <option name="METHOD_NAME" value="repeat" />
+      <option name="PACKAGE_NAME" value="org.com.maven.level.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.com.maven.level.task2.UnoArgumentFunctionalForLinearFunctionsTest" />
+      <option name="METHOD_NAME" value="solve([Ljava.lang.Double;,java.lang.Double,java.lang.Double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnoArgumentFunctionalForTrigonometricFunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.maven.level.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.maven.level.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.com.maven.level.task2.UnoArgumentFunctionalForTrigonometricFunctionsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnoArgumentFunctionalForTrigonometricFunctionsTest.solveThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-level" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.maven.level.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.maven.level.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.com.maven.level.task2.UnoArgumentFunctionalForTrigonometricFunctionsTest" />
+      <option name="METHOD_NAME" value="solveThrowException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinanceReportProcessorTest.getAllByValue" />
-        <item itemvalue="JUnit.FinanceReportProcessorTest" />
-        <item itemvalue="JUnit.FinanceReportProcessorTest.getAllPaymentByFirstCharInName" />
-        <item itemvalue="JUnit.StringProcessorTest" />
-        <item itemvalue="JUnit.StringProcessorTest.repeat" />
+        <item itemvalue="JUnit.UnoArgumentFunctionalForTrigonometricFunctionsTest" />
+        <item itemvalue="JUnit.UnoArgumentFunctionalForTrigonometricFunctionsTest.solveThrowException" />
+        <item itemvalue="JUnit.UnoArgumentFunctionalForLinearFunctionsTest" />
+        <item itemvalue="JUnit.UnoArgumentFunctionalForLinearFunctionsTest.solve" />
+        <item itemvalue="JUnit.UnoArgumentFunctionImpl4Test" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +196,8 @@
       <workItem from="1676024155840" duration="98000" />
       <workItem from="1676024377241" duration="6911000" />
       <workItem from="1676291400764" duration="1439000" />
+      <workItem from="1677488338462" duration="13000" />
+      <workItem from="1677488363379" duration="12981000" />
     </task>
     <task id="LOCAL-00001" summary="Add settings files">
       <created>1676024241458</created>
